@@ -3,13 +3,12 @@
     x:Class="TesteAJD.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:TesteAJD"
-    Shell.FlyoutBehavior="Disabled"
-    Title="TesteAJD">
+    xmlns:views="clr-namespace:TesteAJD.Views"
+    Title="TesteAJD"
+    Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate views:LoginView}"
+        Route="LoginView" />
 
 </Shell>

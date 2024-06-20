@@ -6,10 +6,5 @@
         {
             InitializeComponent();
         }
-
-        private void ShellContent_Disappearing(object sender, EventArgs e)
-        {
-
-        }
     }
 }

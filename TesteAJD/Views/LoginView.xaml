@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="TesteAJD.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:TesteAJD.Converters"
+             xmlns:vm="clr-namespace:TesteAJD.ViewModels"
+             x:Name="LoginPage"
+             Title="Login Page"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,Auto,Auto,Auto,*"
+      ColumnDefinitions="*"
+      Padding="25"
+      RowSpacing="15">
+
+        <Image Grid.Row="0" Grid.Column="0" Margin="0,45,0,30"
+            Source="torra2.png"
+            HeightRequest="100"
+            Aspect="AspectFit"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            SemanticProperties.Description="dot net bot in a race car number eight" />
+
+        <VerticalStackLayout Grid.Row="1" Grid.Column="0" WidthRequest="300" >
+            <Label Text="Usuário" />
+            <Entry Placeholder="Escreva o usuário" />
+        </VerticalStackLayout>
+
+        <VerticalStackLayout Grid.Row="2" Grid.Column="0" WidthRequest="300">
+            <Label Text="Senha" />
+            <Entry Placeholder="Escreva a senha" />
+        </VerticalStackLayout>
+
+        <Button Grid.Row="3" Grid.Column="0"
+            Text="Entrar" 
+            HorizontalOptions="Fill" WidthRequest="300" 
+            Command="{Binding Source={x:Reference LoginPage}, Path=BindingContext.RedirectToProductListCommand}" CommandParameter="{Binding .}"
+         />
+
+        <HorizontalStackLayout Grid.Row="4" Grid.Column="0" 
+            Spacing="15"           
+            HorizontalOptions="Center"
+            VerticalOptions="End">
+            <Image
+                Source="ajd_azul.svg"
+                HeightRequest="55"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+            <Label 
+               Text="© 2024 - AJD Tecnologia LTDA. Todos os Direitos Reservados."
+               VerticalOptions="Center" 
+               FontAttributes="None"
+               WidthRequest="{OnPlatform iOS=200, Android=200}" />
+        </HorizontalStackLayout>
+
+        <!--<ActivityIndicator
+             HeightRequest="45"
+             HorizontalOptions="Center"
+             IsRunning="{Binding IsLoaded, Converter={StaticResource InverseBoolConverter}}"
+             VerticalOptions="Center"
+             WidthRequest="45"
+             Color="#00C569" />-->
+
+    </Grid>
+
+</ContentPage>
