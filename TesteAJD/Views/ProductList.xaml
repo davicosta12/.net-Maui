@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TesteAJD.Views.ProductList"
+             xmlns:converters="clr-namespace:TesteAJD.Converters"
+             xmlns:models="clr-namespace:TesteAJD.Models"
+             xmlns:vm="clr-namespace:TesteAJD.ViewModels"
+             Title="ProductList"
+             Shell.NavBarIsVisible="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
+
+            <Style x:Key="ItemContainerStyle" TargetType="StackLayout">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <Setter.Value>
+                        <VisualStateGroupList>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="LightSkyBlue" />
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateGroupList>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="*,Auto" ColumnDefinitions="*">
+        <CollectionView
+            x:Name="MyCollectionView"
+            Grid.Row="0"
+            Margin="12"
+            ItemsSource="{Binding ProductGroup}"
+            IsGrouped="True"
+            SelectionMode="Multiple"  
+            SelectionChangedCommand="{Binding OnSelectionChangedCommand}" 
+            SelectionChangedCommandParameter="{Binding .,Source={x:Reference MyCollectionView}}"
+        >
+
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout
+                    HorizontalItemSpacing="10"
+                    Orientation="Vertical"
+                    Span="2"
+                    VerticalItemSpacing="15" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.GroupHeaderTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding Name}"
+                        FontSize="20"
+                        Margin="12,15,0,0"
+                        FontAttributes="Bold" />
+                </DataTemplate>
+            </CollectionView.GroupHeaderTemplate>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Style="{StaticResource ItemContainerStyle}"
+                        Margin="0"
+                        Padding="0,10"
+                        HorizontalOptions="Fill"           
+                        VerticalOptions="Center">
+                        <Border
+                            Background="transparent"
+                            StrokeShape="RoundRectangle 8,8,8,8"
+                            WidthRequest="150"
+                            HeightRequest="200"
+                            StrokeThickness="1">
+                            <Image
+                                Aspect="Fill"
+                                Source="{Binding ImageUrl}"
+                            />
+                        </Border>
+
+                        <StackLayout Margin="0,8,0,0">
+                            <Label
+                                FontSize="16"
+                                HorizontalOptions="Center"
+                                Text="{Binding Name}"
+                                TextColor="Black"
+                                VerticalOptions="Start" />
+                            <Label
+                                HorizontalOptions="Center"
+                                Text="{Binding BrandName}"
+                                TextColor="#929292"
+                                VerticalOptions="Start" />
+                            <Label
+                                FontSize="16"
+                                HorizontalOptions="Center"
+                                Text="{Binding Price}"
+                                TextColor="#00C569"
+                                VerticalOptions="Start" />
+                        </StackLayout>
+
+                        <!--<StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Command="{Binding Source={x:Reference ProductListPage}, Path=BindingContext.SelectProductCommand}" 
+                                CommandParameter="{Binding .}" />
+                        </StackLayout.GestureRecognizers>-->
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+        <Border      
+            Grid.Row="1"
+            Background="White"
+            HeightRequest="130"
+            IsVisible="{Binding IsFooterVisible}"
+            StrokeShape="RoundRectangle 6,6,0,0"
+            StrokeThickness="1"
+            HorizontalOptions="Fill"
+            VerticalOptions="End">
+
+            <VerticalStackLayout HorizontalOptions="Fill" VerticalOptions="Center" Margin="45,0" Spacing="10">
+                <Button
+                    Text="DEVOLUÇÃO"
+                    TextColor="White"
+                    Padding="54,12"
+                    BackgroundColor="red"
+                    Command="{Binding NavigationToDevolutionCommand}"
+                    CommandParameter="{Binding SelectedProducts}"
+                />
+
+                <Button
+                    Text="TROCA"
+                    TextColor="White"
+                    Padding="54,12"
+                    BackgroundColor="Orange" />
+            </VerticalStackLayout>
+
+        </Border>
+
+        <!--<ActivityIndicator
+            HeightRequest="45"
+            HorizontalOptions="Center"
+            IsRunning="{Binding IsLoaded, Converter={StaticResource InverseBoolConverter}}"
+            VerticalOptions="Center"
+            WidthRequest="45"
+            Color="#00C569" />-->
+    </Grid>
+</ContentPage>

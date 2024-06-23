@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
+using TesteAJD.Services;
+using TesteAJD.ViewModels;
+using TesteAJD.Views;
 
 namespace TesteAJD
 {
@@ -15,8 +18,19 @@ namespace TesteAJD
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            builder.Services.AddSingleton<INavigationService, NavigationService>();
+
+            builder.Services.AddTransient<LoginViewModel>();
+            builder.Services.AddTransient<Login>();
+
+            builder.Services.AddTransient<ProductListViewModel>();
+            builder.Services.AddTransient<ProductList>();
+
+            builder.Services.AddTransient<DevolutionViewModel>();
+            builder.Services.AddTransient<Devolution>();
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

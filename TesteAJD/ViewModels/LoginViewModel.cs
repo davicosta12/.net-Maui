@@ -1,64 +1,41 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using TesteAJD.Model;
+using CommunityToolkit.Mvvm.Input;
+using TesteAJD.Services;
 using TesteAJD.Views;
 
 namespace TesteAJD.ViewModels
 {
-    public class LoginViewModel : ObservableObject
+    public partial class LoginViewModel : BaseViewModel
     {
-        private bool _IsLoaded = false;
+        [ObservableProperty]
+        private string _tenantUrl = "";
 
-        public ICommand RedirectToProductListCommand { get; }
+        [ObservableProperty]
+        private string _userName = "";
 
-        public bool IsLoaded
+        [ObservableProperty]
+        private string _password = "";
+
+        [ObservableProperty]
+        private bool _isLoaded = true;
+
+        readonly ILoginRepository _loginRepository;
+
+        public LoginViewModel(INavigationService navigationService) : base(navigationService)
         {
-            get => _IsLoaded;
-            set => SetProperty(ref _IsLoaded, value);
+            _loginRepository = new LoginService();
         }
 
-        private ObservableCollection<ProductListModel> _BestSellingDataList = [];
-        public ObservableCollection<ProductListModel> BestSellingDataList
+        [RelayCommand]
+        private void NavigationToProductList()
         {
-            get => _BestSellingDataList;
-            set => SetProperty(ref _BestSellingDataList, value);
-        }
+            IsLoaded = false;
 
-        public LoginViewModel()
-        {
-            RedirectToProductListCommand = new Command<ProductListModel>(RedirectToProductList);
-            _ = InitializeAsync();
-        }
-
-        private async Task InitializeAsync()
-        {
-            await PopulateDataAsync();
-        }
-
-        async Task PopulateDataAsync()
-        {
-            // Delay added to display loading, remove during api call
-            await Task.Delay(500);
-
-            //TODO: Remove Delay here and call API
-
-            BestSellingDataList.Add(new ProductListModel() { Name = "BeoPlay Speaker", BrandName = "Bang and Olufsen", Price = "$755", ImageUrl = "https://raw.githubusercontent.com/exendahal/ecommerceXF/master/eCommerce/eCommerce.Android/Resources/drawable/Image1.png" });
-            BestSellingDataList.Add(new ProductListModel() { Name = "Leather Wristwatch", BrandName = "Tag Heuer", Price = "$450", ImageUrl = "https://raw.githubusercontent.com/exendahal/ecommerceXF/master/eCommerce/eCommerce.Android/Resources/drawable/Image2.png" });
-            BestSellingDataList.Add(new ProductListModel() { Name = "Smart Bluetooth Speaker", BrandName = "Google LLC", Price = "$900", ImageUrl = "https://raw.githubusercontent.com/exendahal/ecommerceXF/master/eCommerce/eCommerce.Android/Resources/drawable/Image3.png" });
-            BestSellingDataList.Add(new ProductListModel() { Name = "Smart Luggage", BrandName = "Smart Inc", Price = "$1200", ImageUrl = "https://raw.githubusercontent.com/exendahal/ecommerceXF/master/eCommerce/eCommerce.Android/Resources/drawable/Image4.png" });
+            //await Task.Delay(50000);
 
             IsLoaded = true;
-        }
 
-        private async void RedirectToProductList(ProductListModel obj)
-        {
-            await Application.Current.MainPage.Navigation.PushAsync(new ProductListView());
+            _navigationService.NavigateToAsync(nameof(ProductList));
         }
     }
 }

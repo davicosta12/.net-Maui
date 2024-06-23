@@ -1,2 +1,2 @@
-AdbTarget=-s RQ8N500E3NM
+AdbTarget=-s emulator-5554
 AdbOptions=

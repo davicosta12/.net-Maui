@@ -1,4 +1,6 @@
-﻿namespace TesteAJD
+﻿using TesteAJD.Models;
+
+namespace TesteAJD
 {
     public partial class App : Application
     {

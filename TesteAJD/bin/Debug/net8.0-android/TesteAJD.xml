@@ -4,5 +4,113 @@
         <name>TesteAJD</name>
     </assembly>
     <members>
+        <member name="T:TesteAJD.ViewModels.DevolutionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.DevolutionViewModel.Products">
+            <inheritdoc cref="F:TesteAJD.ViewModels.DevolutionViewModel._products"/>
+        </member>
+        <member name="F:TesteAJD.ViewModels.DevolutionViewModel.goBackCommand">
+            <summary>The backing field for <see cref="P:TesteAJD.ViewModels.DevolutionViewModel.GoBackCommand"/>.</summary>
+        </member>
+        <member name="P:TesteAJD.ViewModels.DevolutionViewModel.GoBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TesteAJD.ViewModels.DevolutionViewModel.GoBack"/>.</summary>
+        </member>
+        <member name="T:TesteAJD.ViewModels.LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.LoginViewModel.TenantUrl">
+            <inheritdoc cref="F:TesteAJD.ViewModels.LoginViewModel._tenantUrl"/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.LoginViewModel.UserName">
+            <inheritdoc cref="F:TesteAJD.ViewModels.LoginViewModel._userName"/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.LoginViewModel.Password">
+            <inheritdoc cref="F:TesteAJD.ViewModels.LoginViewModel._password"/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.LoginViewModel.IsLoaded">
+            <inheritdoc cref="F:TesteAJD.ViewModels.LoginViewModel._isLoaded"/>
+        </member>
+        <member name="F:TesteAJD.ViewModels.LoginViewModel.navigationToProductListCommand">
+            <summary>The backing field for <see cref="P:TesteAJD.ViewModels.LoginViewModel.NavigationToProductListCommand"/>.</summary>
+        </member>
+        <member name="P:TesteAJD.ViewModels.LoginViewModel.NavigationToProductListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TesteAJD.ViewModels.LoginViewModel.NavigationToProductList"/>.</summary>
+        </member>
+        <member name="T:TesteAJD.ViewModels.ProductListViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.ProductListViewModel.ProductGroup">
+            <inheritdoc cref="F:TesteAJD.ViewModels.ProductListViewModel._productGroup"/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.ProductListViewModel.SelectedProducts">
+            <inheritdoc cref="F:TesteAJD.ViewModels.ProductListViewModel._selectedProducts"/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.ProductListViewModel.IsLoaded">
+            <inheritdoc cref="F:TesteAJD.ViewModels.ProductListViewModel._isLoaded"/>
+        </member>
+        <member name="F:TesteAJD.ViewModels.ProductListViewModel.navigationToDevolutionCommand">
+            <summary>The backing field for <see cref="P:TesteAJD.ViewModels.ProductListViewModel.NavigationToDevolutionCommand"/>.</summary>
+        </member>
+        <member name="P:TesteAJD.ViewModels.ProductListViewModel.NavigationToDevolutionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:TesteAJD.ViewModels.ProductListViewModel.NavigationToDevolution(System.Collections.ObjectModel.ObservableCollection{TesteAJD.Model.ProductListModel})"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Products">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TenantUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TenantUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsLoaded">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsLoaded" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductGroup">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductGroup" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedProducts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedProducts" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Products">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TenantUrl">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TenantUrl" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsLoaded">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsLoaded" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductGroup">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductGroup" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedProducts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedProducts" generated properties.</summary>
+        </member>
     </members>
 </doc>

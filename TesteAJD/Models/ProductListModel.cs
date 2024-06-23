@@ -1,4 +1,6 @@
-﻿namespace TesteAJD.Model
+﻿using System.Collections.ObjectModel;
+
+namespace TesteAJD.Model
 {
     public class ProductListModel
     {
@@ -8,5 +10,15 @@
         public string Price { get; set; }
         public string Details { get; set; }
         public double Qty { get; set; }
+    }
+
+    public class ProductGroup : ObservableCollection<ProductListModel>
+    {
+        public string Name { get; private set; }
+
+        public ProductGroup(string name, ObservableCollection<ProductListModel> products) : base(products)
+        {
+            Name = name;
+        }
     }
 }
