@@ -28,19 +28,21 @@
             SemanticProperties.Description="dot net bot in a race car number eight" />
 
         <VerticalStackLayout Grid.Row="1" Grid.Column="0" WidthRequest="300" >
-            <Label Text="{Binding UserName}" />
-            <Entry Placeholder="Escreva o usuário" />
+            <Label Text="Usuário" />
+            <Entry Placeholder="Escreva o usuário"
+                   Text="{Binding Path=UserName, Mode=TwoWay}" />
         </VerticalStackLayout>
 
         <VerticalStackLayout Grid.Row="2" Grid.Column="0" WidthRequest="300">
-            <Label Text="{Binding Password}"/>
-            <Entry Placeholder="Escreva a senha" />
+            <Label Text="Senha"/>
+            <Entry Placeholder="Escreva a senha"
+                   Text="{Binding Path=Password, Mode=TwoWay}" />
         </VerticalStackLayout>
 
         <Button Grid.Row="3" Grid.Column="0"
             Text="Entrar" 
             HorizontalOptions="Fill" WidthRequest="300" 
-            Command="{Binding NavigationToProductListCommand}"
+            Command="{Binding NavigationToSearchCustomerProductsCommand}"
          />
 
         <HorizontalStackLayout Grid.Row="4" Grid.Column="0" 

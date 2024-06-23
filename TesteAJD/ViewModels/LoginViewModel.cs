@@ -26,8 +26,10 @@ namespace TesteAJD.ViewModels
             _loginRepository = new LoginService();
         }
 
+
+
         [RelayCommand]
-        private void NavigationToProductList()
+        private void NavigationToSearchCustomerProducts()
         {
             IsLoaded = false;
 
@@ -35,7 +37,7 @@ namespace TesteAJD.ViewModels
 
             IsLoaded = true;
 
-            _navigationService.NavigateToAsync(nameof(ProductList));
+            _navigationService.NavigateToAsync(nameof(SearchCustomerProducts));
         }
     }
 }

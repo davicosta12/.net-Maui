@@ -2,11 +2,16 @@
 {
     public class NavigationService : INavigationService
     {
-        public Task NavigateToAsync(string ContentPageName, IDictionary<string, object>? parameters = null)
+        public async Task NavigateToAsync(string ContentPageName, IDictionary<string, object>? parameters = null)
         {
-            return parameters == null 
-                ? Shell.Current.GoToAsync(ContentPageName) 
-                : Shell.Current.GoToAsync(ContentPageName, parameters);
+            if (parameters == null)
+            {
+                await Shell.Current.GoToAsync(ContentPageName);
+            }
+            else
+            {
+                await Shell.Current.GoToAsync(ContentPageName, parameters);
+            }
         }
     }
 }

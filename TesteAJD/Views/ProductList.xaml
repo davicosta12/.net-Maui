@@ -5,7 +5,8 @@
              xmlns:converters="clr-namespace:TesteAJD.Converters"
              xmlns:models="clr-namespace:TesteAJD.Models"
              xmlns:vm="clr-namespace:TesteAJD.ViewModels"
-             Title="ProductList"
+             x:Name="ProductListPage"
+             Title="Produtos"
              Shell.NavBarIsVisible="False">
 
     <ContentPage.Resources>
@@ -37,6 +38,7 @@
             Grid.Row="0"
             Margin="12"
             ItemsSource="{Binding ProductGroup}"
+            IsVisible="{Binding IsLoaded}"
             IsGrouped="True"
             SelectionMode="Multiple"  
             SelectionChangedCommand="{Binding OnSelectionChangedCommand}" 
@@ -67,37 +69,86 @@
                         Padding="0,10"
                         HorizontalOptions="Fill"           
                         VerticalOptions="Center">
+
+                        <!--<SwipeView>
+
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem
+                                      BackgroundColor="#FFC107"
+                                      Command="{Binding Source={x:Reference ProductListPage}, Path=BindingContext.FavoriteCommand}"
+                                      CommandParameter="{Binding .}"         
+                                      Text="Favorite" />
+                                </SwipeItems>
+                            </SwipeView.LeftItems>
+
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem
+                                      BackgroundColor="Red"
+                                      Command="{Binding Source={x:Reference ProductListPage}, Path=BindingContext.DeleteCommand}"
+                                      CommandParameter="{Binding .}"
+                                      Text="Delete" />
+                                </SwipeItems>
+                            </SwipeView.RightItems>-->
+
                         <Border
-                            Background="transparent"
-                            StrokeShape="RoundRectangle 8,8,8,8"
-                            WidthRequest="150"
-                            HeightRequest="200"
-                            StrokeThickness="1">
+                                Background="transparent"
+                                StrokeShape="RoundRectangle 8,8,8,8"
+                                WidthRequest="150"
+                                HeightRequest="200"
+                                StrokeThickness="1">
                             <Image
-                                Aspect="Fill"
-                                Source="{Binding ImageUrl}"
-                            />
+                                    Aspect="Fill"
+                                    Source="{Binding ImageUrl}"
+                                />
                         </Border>
 
-                        <StackLayout Margin="0,8,0,0">
+                        <!--</SwipeView>-->
+
+                        <VerticalStackLayout Margin="0,8,0,0" Spacing="12">
                             <Label
-                                FontSize="16"
-                                HorizontalOptions="Center"
-                                Text="{Binding Name}"
-                                TextColor="Black"
-                                VerticalOptions="Start" />
+                               FontSize="16"
+                               HorizontalOptions="Center"
+                               Text="{Binding Name}"
+                               TextColor="Black" />
                             <Label
-                                HorizontalOptions="Center"
-                                Text="{Binding BrandName}"
-                                TextColor="#929292"
-                                VerticalOptions="Start" />
-                            <Label
-                                FontSize="16"
-                                HorizontalOptions="Center"
-                                Text="{Binding Price}"
-                                TextColor="#00C569"
-                                VerticalOptions="Start" />
-                        </StackLayout>
+                               HorizontalOptions="Center"
+                               VerticalOptions="Start"
+                               Text="{Binding BrandName}"
+                               TextColor="#929292" />
+
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="15">
+                                <Label
+                                    FontAttributes="Bold"
+                                    FontSize="16"
+                                    HorizontalOptions="Start"
+                                    Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTY: {0}'}"
+                                    TextColor="Black" />
+                                <Label
+                                    FontSize="16"
+                                    HorizontalOptions="End"
+                                    Text="{Binding Price}"
+                                    TextColor="#00C569" />
+
+                                <Button
+                                    TextColor="White"
+                                    WidthRequest="28"
+                                    HeightRequest="25"
+                                    Command="{Binding Source={x:Reference ProductListPage}, Path=BindingContext.NavigateToProductDetailCommand}"
+                                    CommandParameter="{Binding .}"
+                                />
+                            </HorizontalStackLayout>
+
+                            <Stepper
+                               x:Name="_stepper"
+                               HorizontalOptions="Center"
+                               Increment="1"
+                               Maximum="10"
+                               Minimum="1"
+                               Value="{Binding Path=Qty, Mode=TwoWay}" />
+
+                        </VerticalStackLayout>
 
                         <!--<StackLayout.GestureRecognizers>
                             <TapGestureRecognizer 
@@ -134,17 +185,19 @@
                     Text="TROCA"
                     TextColor="White"
                     Padding="54,12"
-                    BackgroundColor="Orange" />
+                    BackgroundColor="Orange"
+                    Command="{Binding NavigationToReplacementCommand}"
+                    CommandParameter="{Binding SelectedProducts}" />
             </VerticalStackLayout>
 
         </Border>
 
-        <!--<ActivityIndicator
+        <ActivityIndicator
             HeightRequest="45"
             HorizontalOptions="Center"
             IsRunning="{Binding IsLoaded, Converter={StaticResource InverseBoolConverter}}"
             VerticalOptions="Center"
             WidthRequest="45"
-            Color="#00C569" />-->
+            Color="#00C569" />
     </Grid>
 </ContentPage>

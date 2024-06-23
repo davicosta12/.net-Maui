@@ -19,6 +19,9 @@ namespace TesteAJD.ViewModels
         [ObservableProperty]
         private bool _isLoaded = false;
 
+        [ObservableProperty]
+        private bool _IsFooterVisible = false;
+
         public ICommand OnSelectionChangedCommand { get; }
 
         public ProductListViewModel(INavigationService navigationService) : base(navigationService)
@@ -62,6 +65,7 @@ namespace TesteAJD.ViewModels
             }));
 
             IsLoaded = true;
+            IsFooterVisible = true;
         }
 
         private void OnSelectionChanged(object? sender)
@@ -87,10 +91,32 @@ namespace TesteAJD.ViewModels
         {
             var parameter = new Dictionary<string, object>
                     {
-                        {"Products", selectedProducts }
+                        {"SourceItems", selectedProducts }
                     };
 
             _navigationService.NavigateToAsync(nameof(Devolution), parameter);
+        }
+
+        [RelayCommand]
+        private void NavigationToReplacement(ObservableCollection<ProductListModel> selectedProducts)
+        {
+            var parameter = new Dictionary<string, object>
+                    {
+                        {"OutPutItems", selectedProducts }
+                    };
+
+            _navigationService.NavigateToAsync(nameof(Replacement), parameter);
+        }
+
+        [RelayCommand]
+        private void NavigateToProductDetail(ProductListModel currentProduct)
+        {
+            var parameter = new Dictionary<string, object>
+                    {
+                        {"CurrentProduct", currentProduct }
+                    };
+
+            _navigationService.NavigateToAsync($"{nameof(ProductDetail)}", parameter);
         }
     }
 }

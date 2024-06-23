@@ -23,11 +23,23 @@ namespace TesteAJD
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<Login>();
 
+            builder.Services.AddTransient<SearchCustomerProductsViewModel>();
+            builder.Services.AddTransient<SearchCustomerProducts>();
+
             builder.Services.AddTransient<ProductListViewModel>();
             builder.Services.AddTransient<ProductList>();
 
             builder.Services.AddTransient<DevolutionViewModel>();
             builder.Services.AddTransient<Devolution>();
+
+            builder.Services.AddTransient<ReplacementViewModel>();
+            builder.Services.AddTransient<Replacement>();
+
+            builder.Services.AddTransient<ProductDetailViewModel>();
+            builder.Services.AddTransient<ProductDetail>();
+
+            builder.Services.AddTransient<FinishedViewModel>();
+            builder.Services.AddTransient<Finished>();
 
 #if DEBUG
             builder.Logging.AddDebug();

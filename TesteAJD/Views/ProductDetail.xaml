@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TesteAJD.Views.ProductDetail"
+             xmlns:converters="clr-namespace:TesteAJD.Converters"
+             xmlns:models="clr-namespace:TesteAJD.Models"
+             xmlns:vm="clr-namespace:TesteAJD.ViewModels"
+             x:Name="ProductDetailPage"
+             Title="Detalhes do Produto">
+    
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding GoBackCommand}" />
+    </Shell.BackButtonBehavior>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="DETALHES DO PRODUTO"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

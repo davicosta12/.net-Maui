@@ -9,21 +9,23 @@ using TesteAJD.Views;
 
 namespace TesteAJD.ViewModels
 {
-    [QueryProperty(nameof(Products), "Products")]
+    [QueryProperty(nameof(SourceItems), "SourceItems")]
     public partial class DevolutionViewModel : BaseViewModel
     {
         [ObservableProperty]
-        private ObservableCollection<ProductListModel> _products;
+        private ObservableCollection<ProductListModel> _sourceItems;
 
         public DevolutionViewModel(INavigationService navigationService) : base(navigationService)
         {
-          
+            _ = InitializeAsync();
         }
 
-        [RelayCommand]
-        private void GoBack()
+        private async Task InitializeAsync()
         {
-            _navigationService.NavigateToAsync($"/{nameof(ProductList)}");
+            await Task.Delay(1000);
+
+            IsLoaded = true;
+            IsFooterVisible = true;
         }
     }
 }
