@@ -50,6 +50,8 @@
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 		<MauiImage Update="Resources\Images\ajd_azul.svg" Resize="True" BaseSize="300,185" />
 		<MauiImage Update="Resources\Images\torra2.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\bg_login_screen.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\ajd_branco.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -59,6 +61,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\ajd_Branco.png" />
+	  <None Remove="Resources\Images\ajd_branco2x.png" />
+	  <None Remove="Resources\Images\aj_background.png" />
+	  <None Remove="Resources\Images\aj_background2.png" />
+	  <None Remove="Resources\Images\bg_login.png" />
+	  <None Remove="Resources\Images\bg_login2x.png" />
+	  <None Remove="Resources\Images\bg_login_screen.png" />
+	  <None Remove="Resources\Images\bg_login_screen2.png" />
 	  <None Remove="Resources\Images\torra2.png" />
 	</ItemGroup>
 

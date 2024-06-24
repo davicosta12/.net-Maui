@@ -28,7 +28,9 @@ namespace TesteAJD.ViewModels
         {
             ProductGroup = new ObservableCollection<ProductGroup>();
             SelectedProducts = new ObservableCollection<ProductListModel>();
+
             OnSelectionChangedCommand = new RelayCommand<object>(OnSelectionChanged);
+
             _ = InitializeAsync();
         }
 
@@ -83,26 +85,32 @@ namespace TesteAJD.ViewModels
                 }
 
                 SelectedProducts = new ObservableCollection<ProductListModel>(selectedProducts);
+
+                if (selectedProducts == null || selectedProducts.Count() <= 1)
+                {
+                    NavigationToDevolutionCommand.NotifyCanExecuteChanged();
+                    NavigationToReplacementCommand.NotifyCanExecuteChanged();
+                }
             }
         }
 
-        [RelayCommand]
-        private void NavigationToDevolution(ObservableCollection<ProductListModel> selectedProducts)
+        [RelayCommand(CanExecute = nameof(CanExecuteNavigationToOtherPage))]
+        private void NavigationToDevolution(ObservableCollection<ProductListModel>? selectedProducts)
         {
             var parameter = new Dictionary<string, object>
                     {
-                        {"SourceItems", selectedProducts }
+                        {"SourceItems", selectedProducts ??  new ObservableCollection<ProductListModel>()}
                     };
 
             _navigationService.NavigateToAsync(nameof(Devolution), parameter);
         }
 
-        [RelayCommand]
+        [RelayCommand(CanExecute = nameof(CanExecuteNavigationToOtherPage))]
         private void NavigationToReplacement(ObservableCollection<ProductListModel> selectedProducts)
         {
             var parameter = new Dictionary<string, object>
                     {
-                        {"OutPutItems", selectedProducts }
+                        {"SourceItems", selectedProducts }
                     };
 
             _navigationService.NavigateToAsync(nameof(Replacement), parameter);
@@ -117,6 +125,11 @@ namespace TesteAJD.ViewModels
                     };
 
             _navigationService.NavigateToAsync($"{nameof(ProductDetail)}", parameter);
+        }
+
+        private bool CanExecuteNavigationToOtherPage(ObservableCollection<ProductListModel>? products)
+        {
+            return products != null && products.Any();
         }
     }
 }

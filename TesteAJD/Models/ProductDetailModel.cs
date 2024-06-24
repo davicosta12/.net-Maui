@@ -10,6 +10,7 @@ namespace TesteAJD.Models
         private List<string> _Sizes;
         public Color _Colors;
         private double _Price;
+        private double _Qty;
         public string _Details;
 
         public string ImageUrl
@@ -52,6 +53,12 @@ namespace TesteAJD.Models
         {
             get => _Price;
             set => SetProperty(ref _Price, value);
+        }
+
+        public double Qty
+        {
+            get => _Qty;
+            set => SetProperty(ref _Qty, value);
         }
     }
 

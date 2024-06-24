@@ -16,6 +16,7 @@ namespace TesteAJD
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("icon.ttf", "icon");
                 });
 
             builder.Services.AddSingleton<INavigationService, NavigationService>();

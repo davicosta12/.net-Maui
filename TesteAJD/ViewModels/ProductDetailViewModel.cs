@@ -17,10 +17,13 @@ namespace TesteAJD.ViewModels
         private ProductListModel _currentProduct = new();
 
         [ObservableProperty]
-        private bool _isFooterVisible = false;
+        private bool _isFooterVisible = true;
 
         [ObservableProperty]
         private bool _isLoaded = false;
+
+        double lastScrollIndex;
+        double currentScrollIndex;
 
 
         public ProductDetailViewModel(INavigationService navigationService) : base(navigationService)
@@ -38,6 +41,7 @@ namespace TesteAJD.ViewModels
             await Task.Delay(1000);
             //TODO: Remove Delay here and call API
             ProductDetail.Price = 1500;
+            ProductDetail.Qty = 7;
             ProductDetail.Name = "Nike Dri-FIT Long Sleeve";
             ProductDetail.ImageUrl = "https://raw.githubusercontent.com/exendahal/ecommerceXF/master/eCommerce/eCommerce.Android/Resources/drawable/Image10.png";
             ProductDetail.Colors = Color.FromArgb("#33427D");
@@ -52,6 +56,20 @@ namespace TesteAJD.ViewModels
             ];
             ProductDetail.Reviews = reviewData;
             IsLoaded = true;
+        }
+
+        public void ChageFooterVisibility(double currentY)
+        {
+            currentScrollIndex = currentY;
+            if (currentScrollIndex > lastScrollIndex)
+            {
+                IsFooterVisible = false;
+            }
+            else
+            {
+                IsFooterVisible = true;
+            }
+            lastScrollIndex = currentScrollIndex;
         }
     }
 }

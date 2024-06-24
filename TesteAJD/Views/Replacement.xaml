@@ -16,15 +16,234 @@
         <ResourceDictionary>
             <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
         </ResourceDictionary>
+
+        <Style x:Key="CustomStepperStyle" TargetType="Stepper">
+            <!-- Define as propriedades de estilo aqui -->
+            <Setter Property="WidthRequest" Value="100"/>
+            <Setter Property="HeightRequest" Value="45"/>
+            <!-- Adicione mais propriedades conforme necessário -->
+        </Style>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="*,Auto" ColumnDefinitions="*">
-        <VerticalStackLayout Grid.Row="0">
-            <Label 
-                Text="TELA DE TROCA"
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-        </VerticalStackLayout>
+    <Grid RowDefinitions="*,Auto" ColumnDefinitions="*" Margin="0,15,0,0">
+
+        <Grid RowDefinitions="*" ColumnDefinitions="*,*" Padding="10">
+            <CollectionView
+                 Grid.Column="0"
+                 IsVisible="{Binding IsLoaded}"
+                 x:Name="SourceItemsCollectionView"
+                 Margin="0"
+                 ItemsSource="{Binding SourceItems}"
+                 SelectionMode="None"  
+             >
+
+                <CollectionView.Header>
+
+                    <StackLayout BackgroundColor="Transparent">
+                        <Label Margin="0,0,0,0"
+                           HorizontalOptions="Center"
+                           Text="Itens a devolver"
+                           FontSize="16"
+                           FontAttributes="Bold" />
+                    </StackLayout>
+
+                </CollectionView.Header>
+                
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout
+                         VerticalItemSpacing="15"
+                         Orientation="Vertical"
+                         Span="1" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <VerticalStackLayout Style="{StaticResource ItemContainerStyle}"
+                             Margin="0"
+                             Padding="0,10"
+                             Spacing="10"
+                             HorizontalOptions="Fill"           
+                             VerticalOptions="Center">
+
+                            <SwipeView>
+
+                                <!--<SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem
+                                BackgroundColor="#FFC107"
+                                Command="{Binding Source={x:Reference ReplacementPage}, Path=BindingContext.FavoriteCommand}"
+                                CommandParameter="{Binding .}"
+                                Invoked="SwipeItem_Invoked"
+                                Text="Favorite" />
+                                </SwipeItems>
+                            </SwipeView.LeftItems>-->
+
+                                <SwipeView.RightItems>
+                                    <SwipeItems>
+                                        <SwipeItem
+                                            BackgroundColor="{StaticResource Primary}"
+                                            Command="{Binding Source={x:Reference ReplacementPage}, Path=BindingContext.AddProductCommand}"
+                                            CommandParameter="{Binding .}"
+                                            Text="Adicionar" />
+                                        </SwipeItems>
+                                </SwipeView.RightItems>
+
+                                <Image
+                                    Aspect="AspectFit"
+                                    Source="{Binding ImageUrl}"
+                                    HeightRequest="150"
+                                 />
+
+                            </SwipeView>
+
+                            <VerticalStackLayout Margin="0,8,0,0" Spacing="12">
+                                <Label
+                             FontSize="16"
+                             HorizontalOptions="Center"
+                             Text="{Binding Name}"
+                             TextColor="Black" />
+                                <Label
+                             HorizontalOptions="Center"
+                             VerticalOptions="Start"
+                             Text="{Binding BrandName}"
+                             TextColor="#929292" />
+
+                                <HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
+                                    <Label
+                                  FontAttributes="Bold"
+                                  FontSize="16"
+                                  HorizontalOptions="Start"
+                                  Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTDE: {0}'}"
+                                  TextColor="Black" />
+                                    <Label
+                                  FontSize="16"
+                                  HorizontalOptions="End"
+                                  Text="{Binding Price}"
+                                  TextColor="#00C569" />
+                                </HorizontalStackLayout>
+
+                                <Stepper Style="{StaticResource CustomStepperStyle}"
+                                     x:Name="_stepper"
+                                     HorizontalOptions="Center"
+                                     Increment="1"
+                                     Maximum="10"
+                                     Minimum="1"
+                                     Value="{Binding Path=Qty, Mode=TwoWay}" />
+
+                            </VerticalStackLayout>
+
+                        </VerticalStackLayout>
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+            <CollectionView
+                Grid.Column="1"
+                IsVisible="{Binding IsLoaded}"
+                x:Name="OutPutItemsCollectionView"
+                Margin="0"
+                ItemsSource="{Binding OutPutItems}"
+                SelectionMode="None"  
+             >
+                
+                <CollectionView.Header>
+
+                    <StackLayout BackgroundColor="Transparent">
+                        <Label Margin="0,0,0,0"
+                           HorizontalOptions="Center"
+                           Text="Itens a trocar"
+                           FontSize="16"
+                           FontAttributes="Bold" />
+                    </StackLayout>
+
+                </CollectionView.Header>
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout
+                         VerticalItemSpacing="15"
+                         Orientation="Vertical"
+                         Span="1" />
+                </CollectionView.ItemsLayout>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <VerticalStackLayout Style="{StaticResource ItemContainerStyle}"
+                             Margin="0"
+                             Padding="0,10"
+                             Spacing="10"
+                             HorizontalOptions="Fill"           
+                             VerticalOptions="Center">
+
+                            <SwipeView>
+
+                                <SwipeView.LeftItems>
+                                    <SwipeItems>
+                                        <SwipeItem
+                                            BackgroundColor="Red"
+                                            Command="{Binding Source={x:Reference ReplacementPage}, Path=BindingContext.RemoveProductCommand}"
+                                            CommandParameter="{Binding .}"
+                                            Text="Delete" />
+                                    </SwipeItems>
+                                </SwipeView.LeftItems>
+
+                                <Image
+                                     Aspect="AspectFit"
+                                     Source="{Binding ImageUrl}"
+                                     HeightRequest="150"
+                                  />
+
+                            </SwipeView>
+
+                            <VerticalStackLayout Margin="0,8,0,0" Spacing="12">
+                                <Label
+                                     FontSize="16"
+                                     HorizontalOptions="Center"
+                                     Text="{Binding Name}"
+                                     TextColor="Black" />
+                                <Label
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Start"
+                                     Text="{Binding BrandName}"
+                                     TextColor="#929292" />
+
+                                <HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
+                                    <Label
+                                      FontAttributes="Bold"
+                                      FontSize="16"
+                                      HorizontalOptions="Start"
+                                      Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTDE: {0}'}"
+                                      TextColor="Black" />
+                                    <Label
+                                      FontSize="16"
+                                      HorizontalOptions="End"
+                                      Text="{Binding Price}"
+                                      TextColor="#00C569" />
+                                </HorizontalStackLayout>
+
+                                <Stepper Style="{StaticResource CustomStepperStyle}"
+                                     x:Name="_stepper"
+                                     HorizontalOptions="Center"
+                                     Increment="1"
+                                     Maximum="10"
+                                     Minimum="1"
+                                     Value="{Binding Path=Qty, Mode=TwoWay}" />
+
+                            </VerticalStackLayout>
+
+                        </VerticalStackLayout>
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+        </Grid>
 
         <Border      
              Grid.Row="1"

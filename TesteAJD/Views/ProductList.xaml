@@ -179,6 +179,7 @@
                     BackgroundColor="red"
                     Command="{Binding NavigationToDevolutionCommand}"
                     CommandParameter="{Binding SelectedProducts}"
+                    
                 />
 
                 <Button

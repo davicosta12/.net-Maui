@@ -14,61 +14,81 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="Auto,Auto,Auto,Auto,*"
-      ColumnDefinitions="*"
-      Padding="25"
-      RowSpacing="15">
+    <Grid RowDefinitions=".3*,.7*">
 
-        <Image Grid.Row="0" Grid.Column="0" Margin="0,45,0,30"
-            Source="torra2.png"
-            HeightRequest="100"
-            Aspect="AspectFit"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            SemanticProperties.Description="dot net bot in a race car number eight" />
+        <Image Aspect="AspectFill" Source="bg_login_screen.png" />
+        <Grid BackgroundColor="{StaticResource Primary}" Opacity=".9" />
+        <Grid ColumnDefinitions="*,*">
+            <Image Aspect="AspectFit" HeightRequest="120" Source="ajd_branco" />
+        </Grid>
 
-        <VerticalStackLayout Grid.Row="1" Grid.Column="0" WidthRequest="300" >
-            <Label Text="Usuário" />
-            <Entry Placeholder="Escreva o usuário"
-                   Text="{Binding Path=UserName, Mode=TwoWay}" />
-        </VerticalStackLayout>
+        <Grid Grid.Row="1">
+            <RoundRectangle Margin="-5,-30,-5,-2" CornerRadius="30,30,0,0" Fill="white" />
+            <VerticalStackLayout Margin="30,0">
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    Text="Bem vindo!"
+                    TextColor="#2D2D2D"
+                />
+                <Label
+                    Text="Faça o login para continuar"
+                    TextColor="#A3A3A4"
+                />
+            </VerticalStackLayout>
 
-        <VerticalStackLayout Grid.Row="2" Grid.Column="0" WidthRequest="300">
-            <Label Text="Senha"/>
-            <Entry Placeholder="Escreva a senha"
-                   Text="{Binding Path=Password, Mode=TwoWay}" />
-        </VerticalStackLayout>
+            <Grid ColumnDefinitions="*"
+                  RowDefinitions="Auto,Auto,*"
+                  Margin="30,75,30,0" RowSpacing="10">
 
-        <Button Grid.Row="3" Grid.Column="0"
-            Text="Entrar" 
-            HorizontalOptions="Fill" WidthRequest="300" 
-            Command="{Binding NavigationToSearchCustomerProductsCommand}"
-         />
+                <VerticalStackLayout Grid.Row="0">
+                    <Label Text="Usuário" />
+                    <Entry Placeholder="Digite o seu usuário"
+                        Text="{Binding Path=UserName, Mode=TwoWay}" />
+                </VerticalStackLayout>
 
-        <HorizontalStackLayout Grid.Row="4" Grid.Column="0" 
+                <VerticalStackLayout Grid.Row="1">
+                    <Label Text="Senha"/>
+                    <Entry Placeholder="Digite a sua senha"
+                           IsPassword="True"
+                           Text="{Binding Path=Password, Mode=TwoWay}" />
+                </VerticalStackLayout>
+
+                <Button 
+                    Grid.Row="2"
+                    Text="Entrar" 
+                    VerticalOptions="Start"
+                    Margin="0,20,0,0"
+                    HeightRequest="60"
+                    Command="{Binding NavigationToSearchCustomerProductsCommand}"
+                 />
+
+                <!--<HorizontalStackLayout Grid.Row="4" Grid.Column="0" 
             Spacing="15"           
             HorizontalOptions="Center"
             VerticalOptions="End">
-            <Image
+                    <Image
                 Source="ajd_azul.svg"
                 HeightRequest="55"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
-            <Label 
+                    <Label 
                Text="© 2024 - AJD Tecnologia LTDA. Todos os Direitos Reservados."
                VerticalOptions="Center" 
                FontAttributes="None"
                WidthRequest="{OnPlatform iOS=200, Android=200}" />
-        </HorizontalStackLayout>
+                </HorizontalStackLayout>-->
 
-        <ActivityIndicator Grid.Row="4" Grid.Column="0" 
+                <!--<ActivityIndicator Grid.Row="4" Grid.Column="0" 
              HeightRequest="45"
              HorizontalOptions="Center"
              IsRunning="{Binding IsLoaded, Converter={StaticResource InverseBoolConverter}}"
              VerticalOptions="Center"
              WidthRequest="45"
-             Color="#00C569" />
+             Color="#00C569" />-->
 
+            </Grid>
+        </Grid>
     </Grid>
 
 </ContentPage>

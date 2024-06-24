@@ -4,9 +4,16 @@ namespace TesteAJD.Views;
 
 public partial class ProductDetail : ContentPage
 {
-	public ProductDetail(ProductDetailViewModel productDetailViewModel)
+    ProductDetailViewModel _productDetailViewModel;
+
+    public ProductDetail(ProductDetailViewModel productDetailViewModel)
 	{
 		InitializeComponent();
-        BindingContext = productDetailViewModel;
+        BindingContext = _productDetailViewModel = productDetailViewModel;
+    }
+
+    private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)
+    {
+        //_productDetailViewModel.ChageFooterVisibility(e.ScrollY);
     }
 }
