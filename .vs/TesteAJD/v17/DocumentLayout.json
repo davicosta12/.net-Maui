@@ -182,8 +182,7 @@
               "ViewState": "AQIAABsAAAAAAAAAAAAAADgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-21T00:37:55.819Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -196,8 +195,7 @@
               "ViewState": "AQIAAFsAAAAAAAAAAAAcwHAAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T20:15:24.931Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -207,7 +205,7 @@
               "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\ReplacementViewModel.cs",
               "ToolTip": "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\ViewModels\\ReplacementViewModel.cs",
               "RelativeToolTip": "TesteAJD\\ViewModels\\ReplacementViewModel.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwCkAAAAMAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T18:34:15.845Z",
               "EditorCaption": ""
@@ -222,8 +220,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\Replacement.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:48:36.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:48:36.61Z"
             },
             {
               "$type": "Document",
@@ -235,8 +232,7 @@
               "RelativeToolTip": "TesteAJD\\ViewModels\\DevolutionViewModel.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:36:27.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T22:36:27.071Z"
             },
             {
               "$type": "Document",
@@ -248,8 +244,7 @@
               "RelativeToolTip": "TesteAJD\\ViewModels\\FinishedViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:34:03.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:34:03.176Z"
             },
             {
               "$type": "Document",
@@ -261,8 +256,7 @@
               "RelativeToolTip": "TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:39:40.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:39:40.638Z"
             },
             {
               "$type": "Document",
@@ -274,8 +268,7 @@
               "RelativeToolTip": "TesteAJD\\Models\\ProductDetailModel.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:29:02.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T19:29:02.06Z"
             },
             {
               "$type": "Document",
@@ -287,8 +280,7 @@
               "RelativeToolTip": "TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:35:58.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T20:35:58.539Z"
             },
             {
               "$type": "Document",
@@ -300,8 +292,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\Replacement.xaml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAMEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T18:32:46.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:32:46.523Z"
             },
             {
               "$type": "Document",
@@ -313,8 +304,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\Devolution.xaml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T22:33:04.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T22:33:04.018Z"
             },
             {
               "$type": "Document",
@@ -326,8 +316,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\ProductDetail.xaml",
               "ViewState": "AQIAALEAAAAAAAAAAAAwwD0AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T18:34:47.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:34:47.884Z"
             },
             {
               "$type": "Document",
@@ -339,8 +328,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\Devolution.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:33:06.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T22:33:06.439Z"
             },
             {
               "$type": "Document",
@@ -352,8 +340,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\ProductDetail.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:48:04.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:48:04.898Z"
             },
             {
               "$type": "Document",
@@ -365,8 +352,7 @@
               "RelativeToolTip": "TesteAJD\\MauiProgram.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAQwBIAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:47:26.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T19:47:26.131Z"
             },
             {
               "$type": "Document",
@@ -378,8 +364,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\SearchCustomerProducts.xaml",
               "ViewState": "AQIAABUAAAAAAAAAAAAewCQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T20:33:13.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T20:33:13.521Z"
             },
             {
               "$type": "Document",
@@ -391,8 +376,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:33:26.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T20:33:26.108Z"
             },
             {
               "$type": "Document",
@@ -404,8 +388,7 @@
               "RelativeToolTip": "TesteAJD\\Views\\Login.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-21T00:22:37.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T00:22:37.202Z"
             },
             {
               "$type": "Document",
@@ -417,8 +400,7 @@
               "RelativeToolTip": "TesteAJD\\TesteAJD.csproj",
               "ViewState": "AQIAABUAAAAAAAAAAAAAADYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-22T20:36:19.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T20:36:19.21Z"
             },
             {
               "$type": "Document",
@@ -430,8 +412,7 @@
               "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "ViewState": "AQIAAIYCAAAAAAAAAAAEwG8CAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-24T13:13:26.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T13:13:26.358Z"
             },
             {
               "$type": "Document",
@@ -587,8 +568,7 @@
               "RelativeToolTip": "TesteAJD\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-21T15:19:18.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T15:19:18.144Z"
             },
             {
               "$type": "Document",
@@ -672,8 +652,7 @@
               "RelativeToolTip": "TesteAJD\\Resources\\Styles\\Styles.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T20:38:25.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T20:38:25.736Z"
             }
           ]
         }
