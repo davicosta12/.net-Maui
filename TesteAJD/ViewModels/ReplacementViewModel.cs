@@ -28,7 +28,7 @@ namespace TesteAJD.ViewModels
 
         private async Task InitializeAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(3000);
 
             OutPutItems = new ObservableCollection<ProductListModel>();
 
@@ -43,8 +43,22 @@ namespace TesteAJD.ViewModels
 
             if (foundProduct != null)
             {
-                foundProduct.Qty += 1;
-                OnPropertyChanged(nameof(OutPutItems));
+                var updatedProduct = new ProductListModel()
+                {
+                    BrandName = foundProduct.BrandName,
+                    Qty = foundProduct.Qty + 1,
+                    Details = foundProduct.Details,
+                    ImageUrl = foundProduct.ImageUrl,
+                    Name = foundProduct.Name,
+                    Price = foundProduct.Price
+                };
+
+                var index = OutPutItems.IndexOf(foundProduct);
+
+                if (index >= 0)
+                {
+                    OutPutItems[index] = updatedProduct;
+                }
             }
             else
             {

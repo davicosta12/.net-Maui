@@ -16,12 +16,6 @@ namespace TesteAJD.ViewModels
         [ObservableProperty]
         private ObservableCollection<ProductListModel> _selectedProducts;
 
-        [ObservableProperty]
-        private bool _isLoaded = false;
-
-        [ObservableProperty]
-        private bool _IsFooterVisible = false;
-
         public ICommand OnSelectionChangedCommand { get; }
 
         public ProductListViewModel(INavigationService navigationService) : base(navigationService)
@@ -41,7 +35,7 @@ namespace TesteAJD.ViewModels
 
         async Task PopulateDataAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(3000);
             //TODO: Remove Delay here and call API
 
             ProductGroup.Clear();
@@ -74,15 +68,9 @@ namespace TesteAJD.ViewModels
         {
             if (sender is CollectionView collectionView)
             {
-                var selectedProducts = new List<ProductListModel>();
-
-                foreach (var selectedItem in collectionView.SelectedItems)
-                {
-                    if (selectedItem is ProductListModel product)
-                    {
-                        selectedProducts.Add(product);
-                    }
-                }
+                var selectedProducts = collectionView.SelectedItems
+                                                   .OfType<ProductListModel>()
+                                                   .ToList();
 
                 SelectedProducts = new ObservableCollection<ProductListModel>(selectedProducts);
 

@@ -29,9 +29,16 @@
         </member>
         <member name="T:TesteAJD.ViewModels.DevolutionViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:TesteAJD.ViewModels.DevolutionViewModel.SourceItems">
             <inheritdoc cref="F:TesteAJD.ViewModels.DevolutionViewModel._sourceItems"/>
+        </member>
+        <member name="F:TesteAJD.ViewModels.DevolutionViewModel.navigateToProductDetailCommand">
+            <summary>The backing field for <see cref="P:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetailCommand"/>.</summary>
+        </member>
+        <member name="P:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetail(System.Object)"/>.</summary>
         </member>
         <member name="T:TesteAJD.ViewModels.FinishedViewModel">
             <inheritdoc/>
@@ -55,9 +62,6 @@
         <member name="P:TesteAJD.ViewModels.LoginViewModel.Password">
             <inheritdoc cref="F:TesteAJD.ViewModels.LoginViewModel._password"/>
         </member>
-        <member name="P:TesteAJD.ViewModels.LoginViewModel.IsLoaded">
-            <inheritdoc cref="F:TesteAJD.ViewModels.LoginViewModel._isLoaded"/>
-        </member>
         <member name="F:TesteAJD.ViewModels.LoginViewModel.navigationToSearchCustomerProductsCommand">
             <summary>The backing field for <see cref="P:TesteAJD.ViewModels.LoginViewModel.NavigationToSearchCustomerProductsCommand"/>.</summary>
         </member>
@@ -73,12 +77,6 @@
         <member name="P:TesteAJD.ViewModels.ProductDetailViewModel.CurrentProduct">
             <inheritdoc cref="F:TesteAJD.ViewModels.ProductDetailViewModel._currentProduct"/>
         </member>
-        <member name="P:TesteAJD.ViewModels.ProductDetailViewModel.IsFooterVisible">
-            <inheritdoc cref="F:TesteAJD.ViewModels.ProductDetailViewModel._isFooterVisible"/>
-        </member>
-        <member name="P:TesteAJD.ViewModels.ProductDetailViewModel.IsLoaded">
-            <inheritdoc cref="F:TesteAJD.ViewModels.ProductDetailViewModel._isLoaded"/>
-        </member>
         <member name="T:TesteAJD.ViewModels.ProductListViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -90,12 +88,6 @@
         </member>
         <member name="P:TesteAJD.ViewModels.ProductListViewModel.SelectedProducts">
             <inheritdoc cref="F:TesteAJD.ViewModels.ProductListViewModel._selectedProducts"/>
-        </member>
-        <member name="P:TesteAJD.ViewModels.ProductListViewModel.IsLoaded">
-            <inheritdoc cref="F:TesteAJD.ViewModels.ProductListViewModel._isLoaded"/>
-        </member>
-        <member name="P:TesteAJD.ViewModels.ProductListViewModel.IsFooterVisible">
-            <inheritdoc cref="F:TesteAJD.ViewModels.ProductListViewModel._IsFooterVisible"/>
         </member>
         <member name="F:TesteAJD.ViewModels.ProductListViewModel.navigationToDevolutionCommand">
             <summary>The backing field for <see cref="P:TesteAJD.ViewModels.ProductListViewModel.NavigationToDevolutionCommand"/>.</summary>

@@ -9,7 +9,8 @@ public partial class ProductDetail : ContentPage
     public ProductDetail(ProductDetailViewModel productDetailViewModel)
 	{
 		InitializeComponent();
-        BindingContext = _productDetailViewModel = productDetailViewModel;
+        BindingContext = productDetailViewModel;
+        _productDetailViewModel = productDetailViewModel;
     }
 
     private void ScrollView_Scrolled(object sender, ScrolledEventArgs e)

@@ -16,15 +16,8 @@ namespace TesteAJD.ViewModels
         [ObservableProperty]
         private ProductListModel _currentProduct = new();
 
-        [ObservableProperty]
-        private bool _isFooterVisible = true;
-
-        [ObservableProperty]
-        private bool _isLoaded = false;
-
         double lastScrollIndex;
         double currentScrollIndex;
-
 
         public ProductDetailViewModel(INavigationService navigationService) : base(navigationService)
         {
@@ -38,7 +31,7 @@ namespace TesteAJD.ViewModels
 
         async Task PopulateDataAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(3000);
             //TODO: Remove Delay here and call API
             ProductDetail.Price = 1500;
             ProductDetail.Qty = 7;
@@ -56,6 +49,7 @@ namespace TesteAJD.ViewModels
             ];
             ProductDetail.Reviews = reviewData;
             IsLoaded = true;
+            IsFooterVisible = true;
         }
 
         public void ChageFooterVisibility(double currentY)

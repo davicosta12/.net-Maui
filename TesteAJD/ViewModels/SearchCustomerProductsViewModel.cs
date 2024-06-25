@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,6 @@ namespace TesteAJD.ViewModels
 {
     public partial class SearchCustomerProductsViewModel : BaseViewModel
     {
-
         public SearchCustomerProductsViewModel(INavigationService navigationService) : base(navigationService)
         {
             _ = InitializeAsync();
@@ -19,7 +19,7 @@ namespace TesteAJD.ViewModels
 
         private async Task InitializeAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(3000);
 
             IsLoaded = true;
             IsFooterVisible = true;
@@ -28,12 +28,6 @@ namespace TesteAJD.ViewModels
         [RelayCommand]
         private void NavigationToProductList()
         {
-            IsLoaded = false;
-
-            //await Task.Delay(50000);
-
-            IsLoaded = true;
-
             _navigationService.NavigateToAsync(nameof(ProductList));
         }
     }

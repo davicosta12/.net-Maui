@@ -22,10 +22,27 @@ namespace TesteAJD.ViewModels
 
         private async Task InitializeAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(3000);
 
             IsLoaded = true;
             IsFooterVisible = true;
         }
+
+        [RelayCommand]
+        public void NavigateToProductDetail(object currentProduct)
+        {
+            var parameter = new Dictionary<string, object>
+                    {
+                        {"CurrentProduct", currentProduct }
+                    };
+
+            _navigationService.NavigateToAsync($"{nameof(ProductDetail)}", parameter);
+        }
+
+        //[RelayCommand]
+        //private void RemoveProduct(ProductListModel sourceItem)
+        //{
+        //    SourceItems.Remove(sourceItem);
+        //}
     }
 }

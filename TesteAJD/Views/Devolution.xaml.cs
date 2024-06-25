@@ -6,8 +6,8 @@ public partial class Devolution : ContentPage
 {
 	public Devolution(DevolutionViewModel devolutionViewModel)
 	{
-        InitializeComponent();
         BindingContext = devolutionViewModel;
+        InitializeComponent();
     }
 
     private void SwipeItem_Invoked(object sender, EventArgs e)

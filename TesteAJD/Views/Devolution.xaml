@@ -49,24 +49,23 @@
 
                         <SwipeView>
 
-                            <SwipeView.LeftItems>
+                            <!--<SwipeView.LeftItems>
                                 <SwipeItems>
                                     <SwipeItem
-                                        BackgroundColor="#FFC107"
-                                        Command="{Binding Source={x:Reference DevolutionPage}, Path=BindingContext.FavoriteCommand}"
-                                        CommandParameter="{Binding .}"
-                                        Invoked="SwipeItem_Invoked"
-                                        Text="Favorite" />
+                                         BackgroundColor="Red"
+                                         Command="{Binding Source={x:Reference DevolutionPage}, Path=BindingContext.DeleteCommand}"
+                                         CommandParameter="{Binding .}"
+                                         Text="Delete" />
                                 </SwipeItems>
-                            </SwipeView.LeftItems>
+                            </SwipeView.LeftItems>-->
 
                             <SwipeView.RightItems>
                                 <SwipeItems>
                                     <SwipeItem
-                                        BackgroundColor="Red"
-                                        Command="{Binding Source={x:Reference DevolutionPage}, Path=BindingContext.DeleteCommand}"
-                                        CommandParameter="{Binding .}"
-                                        Text="Delete" />
+                                         BackgroundColor="{StaticResource Primary}"
+                                         Command="{Binding NavigateToProductDetailCommand}"
+                                         CommandParameter="{Binding .}"
+                                         Text="Detalhes" />
                                 </SwipeItems>
                             </SwipeView.RightItems>
 
@@ -96,7 +95,7 @@
                                           FontAttributes="Bold"
                                           FontSize="16"
                                           HorizontalOptions="Start"
-                                          Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTY: {0}'}"
+                                          Text="{Binding Path=Qty, StringFormat='QTDE: {0}'}"
                                           TextColor="Black" />
                                 <Label
                                           FontSize="16"
@@ -105,13 +104,13 @@
                                           TextColor="#00C569" />
                             </HorizontalStackLayout>
 
-                            <Stepper
+                            <!--<Stepper
                                      x:Name="_stepper"
                                      HorizontalOptions="Center"
                                      Increment="1"
                                      Maximum="10"
                                      Minimum="1"
-                                     Value="{Binding Path=Qty, Mode=TwoWay}" />
+                                     Value="{Binding Path=Qty, Mode=TwoWay}" />-->
 
                         </VerticalStackLayout>
 

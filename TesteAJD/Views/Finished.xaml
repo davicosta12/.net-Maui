@@ -6,8 +6,9 @@
              xmlns:models ="clr-namespace:TesteAJD.Models"
              xmlns:vm="clr-namespace:TesteAJD.ViewModels"
              x:Name="FinishedPage"
-             Title="Voltar para a tela principal">
-    
+             Title="Voltar para a tela principal" 
+             Shell.NavBarIsVisible="False">
+
     <Shell.BackButtonBehavior>
         <BackButtonBehavior Command="{Binding GoBackHomeCommand}" />
     </Shell.BackButtonBehavior>
@@ -17,11 +18,30 @@
             <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
-    
-    <VerticalStackLayout>
-        <Label 
-            Text="TELA DE FINALIZAÇÃO"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <Grid RowDefinitions="10*,*" ColumnDefinitions="*" HorizontalOptions="Center" VerticalOptions="Center">
+        <VerticalStackLayout Spacing="65">
+
+            <Image Grid.Row="0" Aspect="AspectFit" HeightRequest="120" Source="success.svg" />
+
+            <VerticalStackLayout Spacing="65">
+                <Label  Grid.Row="1"
+                 FontAttributes="Bold"
+                 FontSize="Medium"
+                 Text="Solicitação finalizada com sucesso!"
+                 TextColor="#2D2D2D"
+             />
+
+                <Button 
+                    Grid.Row="1"
+                    Text="Entrar" 
+                    VerticalOptions="Start"
+                    Margin="0,20,0,0"
+                    HeightRequest="60"
+                    Command="{Binding GoBackHomeCommand}"
+             />
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </Grid>
 </ContentPage>

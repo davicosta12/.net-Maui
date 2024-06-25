@@ -2118,3 +2118,29 @@ C:\Users\deads\source\repos\TesteAJD\TesteAJD\obj\Debug\net8.0-android\android\c
 C:\Users\deads\source\repos\TesteAJD\TesteAJD\obj\Debug\net8.0-android\android\marshal_methods.arm64-v8a.o
 C:\Users\deads\source\repos\TesteAJD\TesteAJD\obj\Debug\net8.0-android\android\jni_remap.arm64-v8a.o
 C:\Users\deads\source\repos\TesteAJD\TesteAJD\obj\Debug\net8.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\ajd_branco.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\bg_login_screen.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\ajd_branco.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\bg_login_screen.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\ajd_branco.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\bg_login_screen.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\ajd_branco.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\bg_login_screen.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\ajd_branco.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\bg_login_screen.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable\ajd_branco2x.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable\aj_background.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable\aj_background2.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable\bg_login.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable\bg_login2x.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable\bg_login_screen2.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\checked.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\success.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\checked.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\success.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\checked.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\success.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\checked.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\success.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\checked.png
+C:\Users\deads\OneDrive\Documentos\PROJETOS_AJD\.NET MAUI\.net-Maui\TesteAJD\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\success.png

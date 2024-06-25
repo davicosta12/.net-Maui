@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\TesteAJD.csproj": {}
+    "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\TesteAJD.csproj": {
+    "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\TesteAJD.csproj",
+        "projectUniqueName": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj",
         "projectName": "TesteAJD",
-        "projectPath": "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\TesteAJD.csproj",
+        "projectPath": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj",
         "packagesPath": "C:\\Users\\deads\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\obj\\",
+        "outputPath": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

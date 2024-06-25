@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cs2NHAZErU=",
+  "dgSpecHash": "5zt9r/sLJYE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\deads\\source\\repos\\TesteAJD\\TesteAJD\\TesteAJD.csproj",
+  "projectFilePath": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\deads\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\deads\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",

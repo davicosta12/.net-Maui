@@ -12,6 +12,13 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
+            
+            <Style x:Key="CustomStepperStyle" TargetType="Stepper">
+                <!-- Define as propriedades de estilo aqui -->
+                <Setter Property="WidthRequest" Value="100"/>
+                <Setter Property="HeightRequest" Value="45"/>
+                <!-- Adicione mais propriedades conforme necessário -->
+            </Style>
 
             <Style x:Key="ItemContainerStyle" TargetType="StackLayout">
                 <Setter Property="VisualStateManager.VisualStateGroups">
@@ -21,7 +28,8 @@
                                 <VisualState x:Name="Normal"/>
                                 <VisualState x:Name="Selected">
                                     <VisualState.Setters>
-                                        <Setter Property="BackgroundColor" Value="LightSkyBlue" />
+                                        <Setter Property="BackgroundColor" Value="#B0E2FF" />
+                                        <Setter Property="Opacity" Value="1" />
                                     </VisualState.Setters>
                                 </VisualState>
                             </VisualStateGroup>
@@ -123,30 +131,29 @@
                                     FontAttributes="Bold"
                                     FontSize="16"
                                     HorizontalOptions="Start"
-                                    Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTY: {0}'}"
+                                    Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTDE: {0}'}"
                                     TextColor="Black" />
                                 <Label
                                     FontSize="16"
                                     HorizontalOptions="End"
                                     Text="{Binding Price}"
                                     TextColor="#00C569" />
-
-                                <Button
-                                    TextColor="White"
-                                    WidthRequest="28"
-                                    HeightRequest="25"
-                                    Command="{Binding Source={x:Reference ProductListPage}, Path=BindingContext.NavigateToProductDetailCommand}"
-                                    CommandParameter="{Binding .}"
-                                />
                             </HorizontalStackLayout>
 
-                            <Stepper
+                            <Stepper Style="{StaticResource CustomStepperStyle}"
                                x:Name="_stepper"
                                HorizontalOptions="Center"
                                Increment="1"
                                Maximum="10"
                                Minimum="1"
                                Value="{Binding Path=Qty, Mode=TwoWay}" />
+
+                            <Button Margin="45,0" 
+                               TextColor="White"
+                               Text="Detalhes"
+                               Command="{Binding Source={x:Reference ProductListPage}, Path=BindingContext.NavigateToProductDetailCommand}"
+                               CommandParameter="{Binding .}"
+                            />
 
                         </VerticalStackLayout>
 
@@ -181,7 +188,6 @@
                     CommandParameter="{Binding SelectedProducts}"
                     
                 />
-
                 <Button
                     Text="TROCA"
                     TextColor="White"

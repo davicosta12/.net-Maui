@@ -111,11 +111,11 @@
 
                                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
                                     <Label
-                                  FontAttributes="Bold"
-                                  FontSize="16"
-                                  HorizontalOptions="Start"
-                                  Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTDE: {0}'}"
-                                  TextColor="Black" />
+                                      FontAttributes="Bold"
+                                      FontSize="16"
+                                      HorizontalOptions="Start"
+                                      Text="{Binding Path=Qty, StringFormat='QTDE: {0}'}"
+                                      TextColor="Black" />
                                     <Label
                                   FontSize="16"
                                   HorizontalOptions="End"
@@ -123,13 +123,13 @@
                                   TextColor="#00C569" />
                                 </HorizontalStackLayout>
 
-                                <Stepper Style="{StaticResource CustomStepperStyle}"
+                                <!--<Stepper Style="{StaticResource CustomStepperStyle}"
                                      x:Name="_stepper"
                                      HorizontalOptions="Center"
                                      Increment="1"
                                      Maximum="10"
                                      Minimum="1"
-                                     Value="{Binding Path=Qty, Mode=TwoWay}" />
+                                     Value="{Binding Path=Qty, Mode=TwoWay}" />-->
 
                             </VerticalStackLayout>
 
@@ -213,25 +213,25 @@
 
                                 <HorizontalStackLayout HorizontalOptions="Center" Spacing="25">
                                     <Label
-                                      FontAttributes="Bold"
-                                      FontSize="16"
-                                      HorizontalOptions="Start"
-                                      Text="{Binding Source={x:Reference _stepper}, Path=Value, StringFormat='QTDE: {0}'}"
-                                      TextColor="Black" />
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        HorizontalOptions="Start"
+                                        Text="{Binding Path=Qty, StringFormat='QTDE: {0}'}"
+                                        TextColor="Black" />
                                     <Label
-                                      FontSize="16"
-                                      HorizontalOptions="End"
-                                      Text="{Binding Price}"
-                                      TextColor="#00C569" />
+                                          FontSize="16"
+                                          HorizontalOptions="End"
+                                          Text="{Binding Price}"
+                                          TextColor="#00C569" />
                                 </HorizontalStackLayout>
 
-                                <Stepper Style="{StaticResource CustomStepperStyle}"
+                                <!--<Stepper Style="{StaticResource CustomStepperStyle}"
                                      x:Name="_stepper"
                                      HorizontalOptions="Center"
                                      Increment="1"
                                      Maximum="10"
                                      Minimum="1"
-                                     Value="{Binding Path=Qty, Mode=TwoWay}" />
+                                     Value="{Binding Path=Qty, Mode=TwoWay}" />-->
 
                             </VerticalStackLayout>
 

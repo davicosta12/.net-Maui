@@ -16,9 +16,6 @@ namespace TesteAJD.ViewModels
         [ObservableProperty]
         private string _password = "";
 
-        [ObservableProperty]
-        private bool _isLoaded = true;
-
         readonly ILoginRepository _loginRepository;
 
         public LoginViewModel(INavigationService navigationService) : base(navigationService)
@@ -26,17 +23,9 @@ namespace TesteAJD.ViewModels
             _loginRepository = new LoginService();
         }
 
-
-
         [RelayCommand]
         private void NavigationToSearchCustomerProducts()
         {
-            IsLoaded = false;
-
-            //await Task.Delay(50000);
-
-            IsLoaded = true;
-
             _navigationService.NavigateToAsync(nameof(SearchCustomerProducts));
         }
     }
