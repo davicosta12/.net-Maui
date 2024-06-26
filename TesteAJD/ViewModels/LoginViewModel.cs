@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Microsoft.Extensions.Caching.Memory;
 using TesteAJD.Services;
 using TesteAJD.Views;
 
@@ -16,16 +17,20 @@ namespace TesteAJD.ViewModels
         [ObservableProperty]
         private string _password = "";
 
-        readonly ILoginRepository _loginRepository;
+        readonly ILoginRepository _loginService;
 
         public LoginViewModel(INavigationService navigationService) : base(navigationService)
         {
-            _loginRepository = new LoginService();
+
         }
 
         [RelayCommand]
-        private void NavigationToSearchCustomerProducts()
+        private async void NavigationToSearchCustomerProducts()
         {
+            var _loginService = new LoginService(TenantUrl, UserName, Password, IMemoryCache memoryCache);
+
+            await _loginService.LoginAsync(TenantUrl, UserName, Password);
+
             _navigationService.NavigateToAsync(nameof(SearchCustomerProducts));
         }
     }

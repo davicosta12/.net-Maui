@@ -29,7 +29,7 @@ namespace TesteAJD.ViewModels
         }
 
         [RelayCommand]
-        public void NavigateToProductDetail(object currentProduct)
+        public void NavigateToProductDetail(ProductListModel currentProduct)
         {
             var parameter = new Dictionary<string, object>
                     {

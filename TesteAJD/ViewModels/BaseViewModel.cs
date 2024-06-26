@@ -5,7 +5,7 @@ using TesteAJD.Views;
 
 namespace TesteAJD.ViewModels
 {
-    public abstract partial class BaseViewModel : ObservableObject
+    public partial class BaseViewModel : ObservableObject
     {
         protected readonly INavigationService _navigationService;
 
@@ -21,9 +21,14 @@ namespace TesteAJD.ViewModels
         }
 
         [RelayCommand]
-        private void HandleSubmit()
+        private void HandleSubmit(string operationType)
         {
-            _navigationService.NavigateToAsync($"{nameof(Finished)}");
+            var parameter = new Dictionary<string, object>
+                    {
+                        {"OperationType", operationType }
+
+                    };
+            _navigationService.NavigateToAsync($"{nameof(Finished)}", parameter);
         }
 
         [RelayCommand]

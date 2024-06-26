@@ -19,7 +19,7 @@
             <summary>The backing field for <see cref="P:TesteAJD.ViewModels.BaseViewModel.HandleSubmitCommand"/>.</summary>
         </member>
         <member name="P:TesteAJD.ViewModels.BaseViewModel.HandleSubmitCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:TesteAJD.ViewModels.BaseViewModel.HandleSubmit"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:TesteAJD.ViewModels.BaseViewModel.HandleSubmit(System.String)"/>.</summary>
         </member>
         <member name="F:TesteAJD.ViewModels.BaseViewModel.goBackCommand">
             <summary>The backing field for <see cref="P:TesteAJD.ViewModels.BaseViewModel.GoBackCommand"/>.</summary>
@@ -38,10 +38,14 @@
             <summary>The backing field for <see cref="P:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetailCommand"/>.</summary>
         </member>
         <member name="P:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetailCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetail(System.Object)"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:TesteAJD.ViewModels.DevolutionViewModel.NavigateToProductDetail(TesteAJD.Model.ProductListModel)"/>.</summary>
         </member>
         <member name="T:TesteAJD.ViewModels.FinishedViewModel">
             <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteAJD.ViewModels.FinishedViewModel.OperationType">
+            <inheritdoc cref="F:TesteAJD.ViewModels.FinishedViewModel._operationType"/>
         </member>
         <member name="F:TesteAJD.ViewModels.FinishedViewModel.goBackHomeCommand">
             <summary>The backing field for <see cref="P:TesteAJD.ViewModels.FinishedViewModel.GoBackHomeCommand"/>.</summary>
@@ -154,6 +158,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SourceItems">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SourceItems" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.OperationType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "OperationType" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TenantUrl">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TenantUrl" generated properties.</summary>
         </member>
@@ -192,6 +199,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SourceItems">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SourceItems" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.OperationType">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "OperationType" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TenantUrl">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TenantUrl" generated properties.</summary>

@@ -9,39 +9,38 @@
              Title="Voltar para a tela principal" 
              Shell.NavBarIsVisible="False">
 
-    <Shell.BackButtonBehavior>
+    <!--<Shell.BackButtonBehavior>
         <BackButtonBehavior Command="{Binding GoBackHomeCommand}" />
-    </Shell.BackButtonBehavior>
+    </Shell.BackButtonBehavior>-->
 
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:InverseBooleanConverter x:Key="InverseBoolConverter" />
+            <converters:OperationTypeConverter x:Key="OperationTypeConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="10*,*" ColumnDefinitions="*" HorizontalOptions="Center" VerticalOptions="Center">
-        <VerticalStackLayout Spacing="65">
+    <Grid RowDefinitions="2*,*" ColumnDefinitions="*" HorizontalOptions="Center">
 
-            <Image Grid.Row="0" Aspect="AspectFit" HeightRequest="120" Source="success.svg" />
+        <VerticalStackLayout Grid.Row="0" Spacing="15" VerticalOptions="Center">
 
-            <VerticalStackLayout Spacing="65">
-                <Label  Grid.Row="1"
-                 FontAttributes="Bold"
-                 FontSize="Medium"
-                 Text="Solicitação finalizada com sucesso!"
-                 TextColor="#2D2D2D"
-             />
+            <Image Aspect="AspectFit" HeightRequest="150" Source="success.svg" />
 
-                <Button 
-                    Grid.Row="1"
-                    Text="Entrar" 
-                    VerticalOptions="Start"
-                    Margin="0,20,0,0"
-                    HeightRequest="60"
-                    Command="{Binding GoBackHomeCommand}"
-             />
-            </VerticalStackLayout>
+            <Label FontAttributes="Bold"
+                FontSize="Medium"
+                Text="{Binding OperationType, Converter={StaticResource OperationTypeConverter}, StringFormat='{0} Solicitada com Sucesso!'}"
+                TextColor="Green"
+            />
 
         </VerticalStackLayout>
+
+        <Button 
+             Grid.Row="1"
+             Text="Início" 
+             VerticalOptions="Start"
+             WidthRequest="200"
+             HeightRequest="60"
+             Command="{Binding GoBackHomeCommand}"
+       />
     </Grid>
 </ContentPage>

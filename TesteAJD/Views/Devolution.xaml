@@ -138,7 +138,7 @@
                    Padding="54,12"
                    BackgroundColor="#00C569"
                    Command="{Binding Source={x:Reference DevolutionPage}, Path=BindingContext.HandleSubmitCommand}"
-                   CommandParameter="{Binding .}"
+                   CommandParameter="D"
                />
             </VerticalStackLayout>
 
