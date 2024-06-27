@@ -7,8 +7,28 @@
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\services\\navigationservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\services\\navigationservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\infra\\restomsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\infra\\restomsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\services\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\services\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\services\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\services\\navigationservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\services\\navigationservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\views\\productlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\views\\productlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\infra\\restomsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\infra\\restomsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\infra\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -115,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\views\\devolution.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\views\\replacement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\views\\replacement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -141,10 +149,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\views\\devolution.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\views\\devolution.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\views\\searchcustomerproducts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -170,10 +174,6 @@
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\views\\productlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|c:\\users\\deads\\onedrive\\documentos\\projetos_ajd\\.net maui\\.net-maui\\testeajd\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CB828672-0166-4DA3-AA0B-CBE703F0EAA3}|TesteAJD\\TesteAJD.csproj|solutionrelative:testeajd\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -193,11 +193,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ProductList.xaml",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductList.xaml",
               "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductList.xaml",
@@ -206,12 +206,11 @@
               "ViewState": "AQIAAH4AAAAAAAAAAAAAAA4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-21T00:37:55.819Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ProductListViewModel.cs",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ProductListViewModel.cs",
               "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\ProductListViewModel.cs",
@@ -220,13 +219,12 @@
               "ViewState": "AQIAAEwAAAAAAAAAAAAcwGEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T20:15:24.931Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TesteAJD",
+              "DocumentIndex": 16,
+              "Title": "TesteAJD.csproj",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj",
               "RelativeDocumentMoniker": "TesteAJD\\TesteAJD.csproj",
               "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\TesteAJD.csproj",
@@ -234,12 +232,37 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-26T19:42:48.055Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\LoginService.cs",
+              "RelativeToolTip": "TesteAJD\\Services\\LoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:13:59.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:00:21.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "NavigationServicecs.cs",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\NavigationServicecs.cs",
               "RelativeDocumentMoniker": "TesteAJD\\Services\\NavigationServicecs.cs",
@@ -253,409 +276,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Services\\LoginService.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\LoginService.cs",
-              "RelativeToolTip": "TesteAJD\\Services\\LoginService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:13:59.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "INavigationService.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\INavigationService.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Services\\INavigationService.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\INavigationService.cs",
-              "RelativeToolTip": "TesteAJD\\Services\\INavigationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T21:39:42.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ILoginRepository.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\ILoginRepository.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Services\\ILoginRepository.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\ILoginRepository.cs",
-              "RelativeToolTip": "TesteAJD\\Services\\ILoginRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T20:14:47.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:00:21.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:00:03.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DevolutionViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\DevolutionViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\DevolutionViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\DevolutionViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\DevolutionViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:36:27.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FinishedViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\FinishedViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\FinishedViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\FinishedViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\FinishedViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:34:03.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SearchCustomerProductsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:35:58.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReplacementViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ReplacementViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\ReplacementViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ReplacementViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\ReplacementViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:34:15.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductDetailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
-              "RelativeToolTip": "TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:39:40.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RestOmsServices.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\RestOmsServices.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Infra\\RestOmsServices.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\RestOmsServices.cs",
-              "RelativeToolTip": "TesteAJD\\Infra\\RestOmsServices.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAABcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:10:50.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\User.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Infra\\User.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\User.cs",
-              "RelativeToolTip": "TesteAJD\\Infra\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:22:13.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\BaseService.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Infra\\BaseService.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\BaseService.cs",
-              "RelativeToolTip": "TesteAJD\\Infra\\BaseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T19:39:30.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductDetailModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductDetailModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Models\\ProductDetailModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductDetailModel.cs",
-              "RelativeToolTip": "TesteAJD\\Models\\ProductDetailModel.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:29:02.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Company.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\Company.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Infra\\Company.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\Company.cs",
-              "RelativeToolTip": "TesteAJD\\Infra\\Company.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T20:23:16.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Replacement.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Replacement.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml",
-              "RelativeToolTip": "TesteAJD\\Views\\Replacement.xaml",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAH0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T18:32:46.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SearchCustomerProducts.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\SearchCustomerProducts.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml",
-              "RelativeToolTip": "TesteAJD\\Views\\SearchCustomerProducts.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T20:33:13.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Resources\\Styles\\Styles.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "TesteAJD\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T20:38:25.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Finished.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Finished.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml",
-              "RelativeToolTip": "TesteAJD\\Views\\Finished.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T18:33:26.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Resources\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "TesteAJD\\Resources\\Styles\\Colors.xaml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-26T15:48:04.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OperationTypeConverter.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\OperationTypeConverter.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Converters\\OperationTypeConverter.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\OperationTypeConverter.cs",
-              "RelativeToolTip": "TesteAJD\\Converters\\OperationTypeConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T15:28:34.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Devolution.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Devolution.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml",
-              "RelativeToolTip": "TesteAJD\\Views\\Devolution.xaml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-22T22:33:04.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "InverseBooleanConverter.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\InverseBooleanConverter.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Converters\\InverseBooleanConverter.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\InverseBooleanConverter.cs",
-              "RelativeToolTip": "TesteAJD\\Converters\\InverseBooleanConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:04:31.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Finished.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Finished.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\Finished.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:46:30.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\MauiProgram.cs",
-              "RelativeToolTip": "TesteAJD\\MauiProgram.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAxwDIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:47:26.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Replacement.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Replacement.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\Replacement.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:48:36.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Login.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Login.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml",
-              "RelativeToolTip": "TesteAJD\\Views\\Login.xaml",
-              "ViewState": "AQIAABUAAAAAAAAAAIBJwDcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-21T00:22:37.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductDetail.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductDetail.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml",
-              "RelativeToolTip": "TesteAJD\\Views\\ProductDetail.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-23T18:34:47.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "ProductDetail.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductDetail.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\ProductDetail.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:48:04.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Devolution.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Devolution.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\Devolution.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T22:33:06.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Login.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\Login.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:59:27.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "TesteAJD\\MainPage.xaml.cs",
@@ -668,85 +288,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SearchCustomerProducts.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\MauiProgram.cs",
+              "RelativeToolTip": "TesteAJD\\MauiProgram.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAADIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T20:33:26.108Z",
+              "WhenOpened": "2024-06-21T19:47:26.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Microsoft.Maui.Resizetizer.After.targets",
-              "DocumentMoniker": "C:\\Users\\deads\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ToolTip": "C:\\Users\\deads\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
-              "ViewState": "AQIAAIYCAAAAAAAAAAAEwG8CAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-24T13:13:26.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\AppShell.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T15:19:05.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml",
-              "RelativeDocumentMoniker": "TesteAJD\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml",
-              "RelativeToolTip": "TesteAJD\\AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-21T02:03:57.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ProductListModel.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductListModel.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Models\\ProductListModel.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductListModel.cs",
-              "RelativeToolTip": "TesteAJD\\Models\\ProductListModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T19:29:00.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ProductList.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductList.xaml.cs",
-              "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductList.xaml.cs",
-              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductList.xaml.cs",
-              "RelativeToolTip": "TesteAJD\\Views\\ProductList.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T20:29:07.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\App.xaml.cs",
               "RelativeDocumentMoniker": "TesteAJD\\App.xaml.cs",
@@ -759,6 +314,415 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RestOmsServices.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\RestOmsServices.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Infra\\RestOmsServices.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\RestOmsServices.cs",
+              "RelativeToolTip": "TesteAJD\\Infra\\RestOmsServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:10:50.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Services\\ILoginRepository.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\ILoginRepository.cs",
+              "RelativeToolTip": "TesteAJD\\Services\\ILoginRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T20:14:47.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "INavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\INavigationService.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Services\\INavigationService.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Services\\INavigationService.cs",
+              "RelativeToolTip": "TesteAJD\\Services\\INavigationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T21:39:42.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:00:03.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DevolutionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\DevolutionViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\DevolutionViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\DevolutionViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\DevolutionViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:36:27.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FinishedViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\FinishedViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\FinishedViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\FinishedViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\FinishedViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:34:03.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SearchCustomerProductsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\SearchCustomerProductsViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T20:35:58.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReplacementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ReplacementViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\ReplacementViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ReplacementViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\ReplacementViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:34:15.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
+              "RelativeToolTip": "TesteAJD\\ViewModels\\ProductDetailViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:39:40.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\User.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Infra\\User.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\User.cs",
+              "RelativeToolTip": "TesteAJD\\Infra\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:22:13.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\BaseService.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Infra\\BaseService.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\BaseService.cs",
+              "RelativeToolTip": "TesteAJD\\Infra\\BaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T19:39:30.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductDetailModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductDetailModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Models\\ProductDetailModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductDetailModel.cs",
+              "RelativeToolTip": "TesteAJD\\Models\\ProductDetailModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:29:02.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\Company.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Infra\\Company.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Infra\\Company.cs",
+              "RelativeToolTip": "TesteAJD\\Infra\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T20:23:16.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Replacement.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Replacement.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml",
+              "RelativeToolTip": "TesteAJD\\Views\\Replacement.xaml",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAH0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T18:32:46.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SearchCustomerProducts.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\SearchCustomerProducts.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml",
+              "RelativeToolTip": "TesteAJD\\Views\\SearchCustomerProducts.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T20:33:13.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "TesteAJD\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T20:38:25.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Finished.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Finished.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml",
+              "RelativeToolTip": "TesteAJD\\Views\\Finished.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T18:33:26.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "TesteAJD\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB0AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-26T15:48:04.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OperationTypeConverter.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\OperationTypeConverter.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Converters\\OperationTypeConverter.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\OperationTypeConverter.cs",
+              "RelativeToolTip": "TesteAJD\\Converters\\OperationTypeConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T15:28:34.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Devolution.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Devolution.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml",
+              "RelativeToolTip": "TesteAJD\\Views\\Devolution.xaml",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAIwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T22:33:04.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InverseBooleanConverter.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\InverseBooleanConverter.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Converters\\InverseBooleanConverter.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Converters\\InverseBooleanConverter.cs",
+              "RelativeToolTip": "TesteAJD\\Converters\\InverseBooleanConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:04:31.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Finished.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Finished.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Finished.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\Finished.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:46:30.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Replacement.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Replacement.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Replacement.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\Replacement.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:48:36.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml",
+              "RelativeToolTip": "TesteAJD\\Views\\Login.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-21T00:22:37.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductDetail.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml",
+              "RelativeToolTip": "TesteAJD\\Views\\ProductDetail.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-23T18:34:47.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ProductDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductDetail.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\ProductDetail.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:48:04.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Devolution.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Devolution.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Devolution.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\Devolution.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T22:33:06.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\Login.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\Login.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:59:27.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SearchCustomerProducts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\SearchCustomerProducts.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T20:33:26.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\deads\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\deads\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AQIAAIYCAAAAAAAAAAAEwG8CAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-24T13:13:26.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T15:19:05.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml",
+              "RelativeDocumentMoniker": "TesteAJD\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\AppShell.xaml",
+              "RelativeToolTip": "TesteAJD\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-21T02:03:57.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductListModel.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductListModel.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Models\\ProductListModel.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Models\\ProductListModel.cs",
+              "RelativeToolTip": "TesteAJD\\Models\\ProductListModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T19:29:00.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductList.xaml.cs",
+              "RelativeDocumentMoniker": "TesteAJD\\Views\\ProductList.xaml.cs",
+              "ToolTip": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\Views\\ProductList.xaml.cs",
+              "RelativeToolTip": "TesteAJD\\Views\\ProductList.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T20:29:07.98Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 43,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\deads\\OneDrive\\Documentos\\PROJETOS_AJD\\.NET MAUI\\.net-Maui\\TesteAJD\\App.xaml",
@@ -767,8 +731,7 @@
               "RelativeToolTip": "TesteAJD\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-06-21T15:19:18.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T15:19:18.144Z"
             },
             {
               "$type": "Document",
@@ -780,8 +743,7 @@
               "RelativeToolTip": "TesteAJD\\Models\\UserInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T23:40:48.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T23:40:48.255Z"
             },
             {
               "$type": "Document",

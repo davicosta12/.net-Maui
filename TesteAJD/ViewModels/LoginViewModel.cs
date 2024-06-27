@@ -27,7 +27,7 @@ namespace TesteAJD.ViewModels
         [RelayCommand]
         private async void NavigationToSearchCustomerProducts()
         {
-            var _loginService = new LoginService(TenantUrl, UserName, Password, IMemoryCache memoryCache);
+            var _loginService = new LoginService(UserName, Password, IMemoryCache memoryCache);
 
             await _loginService.LoginAsync(TenantUrl, UserName, Password);
 
